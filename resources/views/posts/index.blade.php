@@ -1,3 +1,13 @@
+@extends('layouts.layouts')
+
+@section('title','Samurai_twitter')
+
+@section('content')
+
+@if (session('message'))
+    {{ session('message') }}
+@endif
+
  <h1>Posts</h1>
 
 @foreach($posts as $post)
@@ -13,3 +23,4 @@
 
 <a href="/posts/create">NEW Post</a>
 
+@endsection
