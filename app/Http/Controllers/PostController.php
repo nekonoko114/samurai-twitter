@@ -36,6 +36,12 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+
+        $request->valdata([
+            'title' => 'required',
+            'content' => 'required',
+        ]);
+
         $port = new Post();
         $post->title = $request->input('title');
         $post->content= $request->input('content');
@@ -74,6 +80,13 @@ class PostController extends Controller
      */
     public function update(Request $request,Post $post)
     {
+
+        $request->validata([
+            'title' => 'requireds',
+            'cocntet' => 'required',
+        ]);
+
+
         $post->title = $request->input('title');
         $post->content = $request->input('content');
         $post->save();
