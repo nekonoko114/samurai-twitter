@@ -1,4 +1,3 @@
-@if
-(sesstion('message'))
+@if (session('message'))
 {{ session('message') }}
 @endif

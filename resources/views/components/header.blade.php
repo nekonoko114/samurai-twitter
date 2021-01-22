@@ -1,6 +1,6 @@
 <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
 <nav class="navbar navbar-expand-lg navbar light bg-light fixed-top">
-    <a class="navbar-brand" href="/">Samurai_twitte</a>
+    <a class="navbar-brand" href="/">Samurai_Twitte</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupprotent" aria-controls="navbarSupportedContent" ariaexpaded="false" aria-label="Toggle navigation">
         <span class="navbar-toggle-icon"></span>
     </button>
